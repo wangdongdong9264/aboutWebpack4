@@ -1,0 +1,27 @@
+{
+  "name": "webpackmanual",
+  "version": "1.0.0",
+  "description": "webpack manual",
+  "main": "index.js",
+  "bin": {
+    "dd-pack": "./bin/dd-pack.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack4"
+  ],
+  "author": "Dongdong",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/generator": "^7.4.0",
+    "@babel/parser": "^7.4.3",
+    "@babel/traverse": "^7.4.3",
+    "@babel/types": "^7.4.0"
+  },
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "tapable": "^1.1.3"
+  }
+}
